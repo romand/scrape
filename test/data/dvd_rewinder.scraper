@@ -1,0 +1,6 @@
+|dvdrewinder\\.com| {
+  title = title
+  image_url = meta[property="og:image"] @content
+  price = #prcIsum =~ after /(US )?/
+  product_id = #main !json*.productInfo*.product_id
+}

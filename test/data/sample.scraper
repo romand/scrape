@@ -1,0 +1,6 @@
+|^test/data/sample.html| {
+  title = title
+  image_url = meta[property="og:image"] @content
+  id_in_shop = meta[property="og:url"] @content =~ after |.*/|
+  price = #prcIsum =~ after /(US )?/
+}

@@ -1,0 +1,6 @@
+|^test/data/sample2.html| {
+  title = span#title
+  image_url = img#image @src
+  id_in_shop = a.product-url @href =~ after |.*/|
+  price = #price =~ /\d+\$/
+}
